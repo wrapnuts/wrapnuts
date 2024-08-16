@@ -50,13 +50,13 @@ cashu info
 python3 wrapnuts-cli.py
 ```
 
-2. Enter “1” in the main menu of wrapnuts-cli. If the balance is not displayed, refer to the troubleshooting guide to fulfill the two requirements:
-    - is the Cashu-wallet connected to a mint?
+2. Enter “1” in the main menu of wrapnuts-cli. If the balance is not displayed, make sure to fulfill the two requirements:
+    - Is the Cashu-wallet connected to a mint?
     - and does it have a balance?
 
-3. If a balance is displayed, both requirements have been met. Next, enter “2” in the main menu of Wrapnuts-cli to wrap a cashu and follow the instructions until the wrapping process is complete.
+3. If balance is displayed, both requirements have been met. Next, enter “2” in the main menu of Wrapnuts-cli to wrap a cashu and follow the instructions until the wrapping process is complete.
 
-4. Enter “1” in the main menu of Wrapnuts-cli to see that your balance has changed accordingly. The file with the embedded cashu can either be shared with another user or redeemed with Nutwraps-cli.
+4. Enter “1” in main menu of Wrapnuts-cli to see that your balance has changed accordingly. The file with the embedded cashu can either be shared with another user or redeemed with Nutwraps-cli.
 
 5. To redeem embedded cashu, enter “3” in the main menu of Wrapnuts-cli and follow the instructions until the unwrapping process is complete.
 
