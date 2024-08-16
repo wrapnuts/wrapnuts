@@ -39,15 +39,10 @@ sudo pip install cashu
 ```bash
 cashu info
 ```
-5. Go to the working directory of Nutwraps-cli and run it.
-
-```bash
-python3 wrapnuts-cli.py
-```
 
 ## Test flight
 
-1. Go to the folder “testflight” and then run this:
+1. Go to the working directory of Nutwraps-cli and then run it:
 
 ```bash
 python3 wrapnuts-cli.py
