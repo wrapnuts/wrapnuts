@@ -60,4 +60,4 @@ python3 wrapnuts-cli.py
 
 ## Disclaimer 
 
-The author is NOT a cryptographer and this work has not been reviewed. This means that there is very likely a fatal flaw somewhere. Wrapnuts and cashu are still experimental and not production-ready.
+The author is NOT a cryptographer and this work has not been reviewed. This means that there is very likely a fatal flaw somewhere. Wrapnuts and Cashu are still experimental and not production-ready.
