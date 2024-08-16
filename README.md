@@ -1,3 +1,5 @@
+![alt text](nutwraps.png "Title")
+
 This CLI was developed as a proof of concept for embedding cashu. Launch a test flight according to the steps below.
 
 # Wrapnuts-cli
