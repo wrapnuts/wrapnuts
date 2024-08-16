@@ -1,16 +1,65 @@
-## Hi there 👋
+This CLI was developed as a proof of concept for embedding cashu. Launch a test flight according to the steps below.
 
-<!--
-**wrapnuts/wrapnuts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Wrapnuts-cli
 
-Here are some ideas to get you started:
+A Cashu-wallet based on Nutshell [1] that implements the functionality of embedded cashu.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Roadmap
+
+- [x] Main menu
+- [x] Steghide tool by Hetzl, S. [2]
+- [x] Embedding cashu in photos
+- [x] Embedding cashu in audio files
+- [x] Extracting and redeeming embedded cashu
+- [x] Encryption, let users choose passphrase
+- [x] Let users choose amount of cashu to wrap
+
+
+## Requirements
+
+[1] Install [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file) according to their docs
+[2] Install [steghide](https://steghide.sourceforge.net/index.php) according to their docs or use a package manager, like apt:
+
+1. Install dependencies with apt:
+
+```bash
+sudo apt install -y steghide python3-pip python3-qrcode pkg-config
+```
+2. Upgrade pip:
+
+```bash
+sudo pip3 install --upgrade pip
+```
+3. Install cashu:
+
+```bash
+sudo pip install cashu
+```
+4. Test cashu if it does not work, follow Cashu's [README](https://github.com/cashubtc/nutshell?tab=readme-ov-file)
+
+```bash
+cashu info
+```
+5. Go to the working directory of Nutwraps-cli and run it.
+
+```bash
+python3 wrapnuts-cli.py
+```
+
+## Test flight
+
+1. Go to the folder “testflight” and then run this:
+
+```bash
+python3 wrapnuts-cli.py
+```
+
+2. Enter “1” in the main menu of wrapnuts-cli. If the balance is not displayed, refer to the troubleshooting guide to fulfill the two requirements:
+    - is the Cashu-wallet connected to a mint?
+    - and does it have a balance?
+
+3. If a balance is displayed, both requirements have been met. Next, enter “2” in the main menu of Wrapnuts-cli to wrap a Cashu and follow the instructions until the wrapping process is complete.
+
+4. Enter “1” in the main menu of Wrapnuts-cli to see that your balance has changed accordingly. The file with the embedded cashu can either be shared with another user or redeemed with Nutwraps-cli.
+
+5. To redeem embedded cashu, enter “3” in the main menu of Wrapnuts-cli and follow the instructions until the unwrapping process is complete.
