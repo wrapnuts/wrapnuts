@@ -1,4 +1,4 @@
-![alt text](nutwraps.png "Title")
+![](https://github.com/wrapnuts/wrapnuts/blob/main/wrapnuts.png "Title")
 
 This CLI was developed as a proof of concept for embedding cashu. Launch a test flight according to the steps below.
 
