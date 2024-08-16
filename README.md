@@ -57,3 +57,7 @@ python3 wrapnuts-cli.py
 4. Enter “1” in the main menu of Wrapnuts-cli to see that your balance has changed accordingly. The file with the embedded cashu can either be shared with another user or redeemed with Nutwraps-cli.
 
 5. To redeem embedded cashu, enter “3” in the main menu of Wrapnuts-cli and follow the instructions until the unwrapping process is complete.
+
+## Disclaimer 
+
+The author is NOT a cryptographer and this work has not been reviewed. This means that there is very likely a fatal flaw somewhere. Cashu is still experimental and not production-ready.
