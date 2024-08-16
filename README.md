@@ -2,12 +2,12 @@ This CLI was developed as a proof of concept for embedding cashu. Launch a test 
 
 # Wrapnuts-cli
 
-A Cashu-wallet based on Nutshell [1] that implements the functionality of embedded cashu.
+A Cashu-wallet based on Nutshell [I.] that implements the functionality of embedded cashu.
 
 ## Roadmap
 
 - [x] Main menu
-- [x] Steghide tool by Hetzl, S. [2]
+- [x] Steghide tool by Hetzl, S. [II.]
 - [x] Embedding cashu in photos
 - [x] Embedding cashu in audio files
 - [x] Extracting and redeeming embedded cashu
@@ -17,8 +17,8 @@ A Cashu-wallet based on Nutshell [1] that implements the functionality of embedd
 
 ## Requirements
 
-[1] Install [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file) according to their docs
-[2] Install [steghide](https://steghide.sourceforge.net/index.php) according to their docs or use a package manager, like apt:
+[I.]  Install [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file) according to their docs
+[II.] Install [steghide](https://steghide.sourceforge.net/index.php) according to their docs or use a package manager, like apt:
 
 1. Install dependencies with apt:
 
