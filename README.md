@@ -17,8 +17,7 @@ A Cashu-wallet based on Nutshell [I.] that implements the functionality of embed
 
 ## Requirements
 
-[I.]  Install [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file) according to their docs
-[II.] Install [steghide](https://steghide.sourceforge.net/index.php) according to their docs or use a package manager, like apt:
+[I.]  Install [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file) according to their docs & [II.] Install [steghide](https://steghide.sourceforge.net/index.php) according to their docs or use a package manager, like apt:
 
 1. Install dependencies with apt:
 
