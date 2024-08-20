@@ -8,19 +8,17 @@ A CLI that implements the functionality of embedded cashu by interacting with th
 
 ## Roadmap
 
-- [x] Main menu
 - [x] Steghide tool by Hetzl, S. **[II.]**
 - [x] Embedding cashu in photos (.png) 
 - [x] Embedding cashu in audio files (.wav)
-- [x] Extracting and redeeming embedded cashu
 - [x] Encryption, let users choose passphrase
 - [x] Let users choose amount of cashu to wrap
-- [ ] Support more file types
+- [ ] Support and test more file types
 
 
 ## Requirements
 
-**[I.]**  Install [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file) according to their docs & **[II.]** install [steghide](https://steghide.sourceforge.net/index.php) according to their docs or use a package manager, like apt:
+**[I.]** Install [Nutshell](https://github.com/cashubtc/nutshell?tab=readme-ov-file) & **[II.]** [steghide](https://steghide.sourceforge.net/index.php), according to their docs. Or use a package manager, like apt:
 
 1. Install dependencies with apt:
 
