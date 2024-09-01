@@ -9,11 +9,12 @@ A CLI that implements the functionality of embedded cashu by interacting with th
 ## Roadmap
 
 - [x] Steghide tool by Hetzl, S. **[II.]**
-- [x] Embedding cashu in photos (.png) 
+- [x] Embedding cashu in photos (.jpg & .png) 
 - [x] Embedding cashu in audio files (.wav)
 - [x] Encryption, let users choose passphrase
 - [x] Let users choose amount of cashu to wrap
 - [ ] Support and test more file types
+- [ ] Support for Nutshell-wallet if connected to multiple mints
 
 
 ## Requirements
@@ -43,7 +44,10 @@ cashu info
 
 ## Test flight
 
-1. Make sure to have a .png or .wav file in the working directory of Wrapnuts-cli and then run:
+> [!WARNING]  
+> ONLY WORKS with 1 MINT CONNECTED via Nutshell-wallet
+
+1. Make sure to have a .jpg or .png or .wav file in the working directory of Wrapnuts-cli and then run:
 
 ```bash
 python3 wrapnuts-cli.py
