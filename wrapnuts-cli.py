@@ -61,11 +61,11 @@ while ans:
         stored_nut = cashu_amount
         print ('========================================')
     try:
-        output = subprocess.check_call(['cashu', 'info'], stderr=subprocess.STDOUT, text=True)
+        output = subprocess.check_call(['cashu', 'send', str(stored_nut)], stderr=subprocess.STDOUT, text=True)
         print ('Connecting...')
         # Format output as string
-        output = os.popen("cashu send {} | head -n 1".format(stored_nut)).read().strip()
-        output_string = "{}\n".format(output)
+        output = os.popen("cashu pending | head -n 5".format(stored_nut)).readlines()
+        output_string = "{}".format(output[4])
         temp_file = ".temp_cashu.txt"
         with open(temp_file, "w") as f:
           f.write(output_string)
