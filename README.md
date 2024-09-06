@@ -14,7 +14,7 @@ A CLI that implements the functionality of embedded cashu by interacting with th
 - [x] Encryption, let users choose passphrase
 - [x] Let users choose amount of cashu to wrap
 - [ ] Support and test more file types
-- [x] Support for Nutshell-wallet if connected to multiple mints
+- [x] Support if connected to multiple mints
 
 
 ## Requirements
