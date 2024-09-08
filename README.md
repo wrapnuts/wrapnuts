@@ -13,9 +13,8 @@ A CLI that implements the functionality of embedded cashu by interacting with th
 - [x] Embedding cashu in audio files (.wav)
 - [x] Encryption, let users choose passphrase
 - [x] Let users choose amount of cashu to wrap
-- [ ] Support and test more file types
 - [x] Support for users connected to multiple mints
-
+- [ ] Support and test more file types
 
 ## Requirements
 
