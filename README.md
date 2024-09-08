@@ -13,9 +13,8 @@ A CLI that implements the functionality of embedded cashu by interacting with th
 - [x] Embedding cashu in audio files (.wav)
 - [x] Encryption, let users choose passphrase
 - [x] Let users choose amount of cashu to wrap
+- [x] Support for users connected to multiple mints
 - [ ] Support and test more file types
-- [x] Support if connected to multiple mints
-
 
 ## Requirements
 
@@ -44,21 +43,21 @@ cashu info
 
 ## Test flight
 
-1. Make sure to have a .jpg or .png or .wav file in the working directory of Wrapnuts-cli and then run:
+1. Make sure to have a compatible file (.jpg, .png, or .wav) in working directory of Wrapnuts-cli and then run:
 
 ```bash
 python3 wrapnuts-cli.py
 ```
 
 2. Enter “1” in main menu of Wrapnuts-cli. If no balance is displayed, make sure to fulfill the two requirements:
-    - Is the Nutshell-wallet connected to a mint?
-    - Does it have a balance?
+    - Is Nutshell-wallet connected to a mint?
+    - Do you have a balance?
 
-3. If balance is displayed, both requirements have been met. Next, enter “2” in main menu to embed (wrap) a cashu. Then follow the instructions until the wrapping process is complete.
+3. If balance is displayed, both requirements are met. Next, enter “2” in main menu to wrap (embed) a cashu. Follow instructions until wrapping process is complete.
 
-4. The file with the embedded cashu can either be shared with another user or redeemed by the same user with Wrapnuts-cli.
+4. The file (with the embedded cashu) can be sent to someone else, before it is redeemed with Wrapnuts-cli.
 
-5. To redeem embedded cashu from a file, enter “3” in main menu of Wrapnuts-cli. Then follow the instructions until the unwrapping process is complete.
+5. To redeem embedded cashu, enter “3” in main menu of Wrapnuts-cli. Follow instructions until the unwrapping process is complete.
 
 ## Disclaimer 
 
