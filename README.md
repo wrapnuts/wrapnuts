@@ -14,7 +14,7 @@ A CLI that implements the functionality of embedded cashu by interacting with th
 - [x] Encryption, let users choose passphrase
 - [x] Let users choose amount of cashu to wrap
 - [ ] Support and test more file types
-- [x] Support if Nutshell is connected to multiple mints
+- [x] Support for users connected to multiple mints
 
 
 ## Requirements
@@ -51,8 +51,8 @@ python3 wrapnuts-cli.py
 ```
 
 2. Enter “1” in main menu of Wrapnuts-cli. If no balance is displayed, make sure to fulfill the two requirements:
-    - Is the Nutshell-wallet connected to a mint?
-    - Does it have a balance?
+    - Is Nutshell-wallet connected to a mint?
+    - Do you have a balance?
 
 3. If balance is displayed, both requirements are met. Next, enter “2” in main menu to wrap (embed) a cashu. Follow instructions until wrapping process is complete.
 
