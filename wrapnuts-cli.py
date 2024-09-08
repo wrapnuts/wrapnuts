@@ -1,5 +1,6 @@
 import os
 import subprocess
+script_path = ".cache/"
 import time
 os.system('cls' if os.name == 'nt' else 'clear')
 ans=True
@@ -10,7 +11,8 @@ while ans:
   print("1. Your balance at the mint")
   print("2. Wrap a cashu")
   print("3. Unwrap a cashu")
-  print("4. Exit")
+  print("4. Redeem all your pending cashu")
+  print("5. Exit")
   print ('========================================')
   print ()
   ans=input("What do you want to do? Enter number: ")
@@ -57,11 +59,11 @@ while ans:
     try:
         output = subprocess.check_call(['cashu', 'send', str(stored_nut)], stderr=subprocess.STDOUT, text=True)
         print ('Connecting...')
-        output = os.popen("cashu pending | head -n 5".format(stored_nut)).readlines()
-        output_string = "{}".format(output[4])
-        temp_file = ".temp_cashu.txt"
-        with open(temp_file, "w") as f:
-          f.write(output_string)
+        output = os.popen("cashu pending | cat > .cache/.pend.txt")
+        os.chdir(os.path.dirname(script_path))
+        subprocess.run(["bash", "./cache.sh"])
+        os.chdir("../")
+        temp_file = ".cache/.temp_cashu.txt"
     except subprocess.CalledProcessError as e:
         print(f"An error occurred while wrapping cashu ({e.returncode}: {e.cmd})")
         continue
@@ -117,6 +119,19 @@ while ans:
     time.sleep(5)
     os.system('clear')
   elif ans == '4':
+    print ('\n========================================')
+    output = subprocess.check_call(['cashu', 'balance'], stderr=subprocess.STDOUT, text=True)
+    print ('========================================')
+    os.chdir(os.path.dirname(script_path))
+    subprocess.run(["bash", "./redeem.sh"])
+    os.chdir("../")
+    print ('========================================')
+    os.system('clear')
+    output = subprocess.check_call(['cashu', 'balance'], stderr=subprocess.STDOUT, text=True)
+    print ('========================================')
+    time.sleep(5)
+    os.system('clear')
+  elif ans == '5':
     print ('\n========================================') 
     print('See you soon!')
     print ('========================================') 
