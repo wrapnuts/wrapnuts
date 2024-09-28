@@ -23,19 +23,29 @@ A CLI that implements the functionality of embedded cashu by interacting with th
 1. Install dependencies with apt:
 
 ```bash
-sudo apt install -y steghide python3-pip python3-qrcode pkg-config
+sudo apt install -y steghide python3-pip python3-qrcode pkg-config python3.10-venv
 ```
 2. Upgrade pip:
 
 ```bash
 sudo pip3 install --upgrade pip
 ```
-3. Install cashu:
+3. Create venv and upgrade pip:
 
 ```bash
-sudo pip install cashu
+python3 -m venv cashu_venv
+source cashu_venv/bin/activate
+python3 -m pip install --upgrade pip
 ```
-4. Test cashu if it does not work, follow Cashu's [README](https://github.com/cashubtc/nutshell?tab=readme-ov-file)
+```bash
+python3 -m pip install --upgrade pip
+```
+4. Install Nutshell:
+
+```bash
+pip install cashu
+```
+6. Test cashu if it does not work, follow Cashu's [README](https://github.com/cashubtc/nutshell?tab=readme-ov-file)
 
 ```bash
 cashu info
