@@ -35,7 +35,6 @@ sudo pip3 install --upgrade pip
 ```bash
 python3 -m venv cashu_venv
 source cashu_venv/bin/activate
-python3 -m pip install --upgrade pip
 ```
 ```bash
 python3 -m pip install --upgrade pip
