@@ -44,6 +44,20 @@ pip install cashu
 ```bash
 cashu info
 ```
+## Install wrapnuts
+
+1. Clone repo
+
+```bash
+git clone https://github.com/wrapnuts/wrapnuts.git
+```
+2. Set permissions
+
+```bash
+chmod 700 wrapnuts/wrapnuts-cli.py
+chmod 700 wrapnuts/.cache/cache.sh
+chmod 700 wrapnuts/.cache/redeem.sh
+```
 
 ## Test flight
 
