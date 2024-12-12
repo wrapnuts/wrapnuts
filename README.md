@@ -1,10 +1,8 @@
 ![](https://github.com/wrapnuts/wrapnuts/blob/main/wrapnut.png)
 
-This CLI was developed as a proof of concept for embedding cashu. Launch a test flight according to the steps below.
-
 # Wrapnuts-cli
 
-A CLI that implements the functionality of embedded cashu by interacting with the Nutshell-wallet **[I.]** 
+A CLI that implements the functionality of embedded cashu by interacting with the Nutshell-wallet **[I.]**. This CLI was developed as a proof of concept for embedding cashu. Launch a test flight according to the steps below.
 
 ## Roadmap
 
