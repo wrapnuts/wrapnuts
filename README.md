@@ -1,4 +1,4 @@
-![](https://github.com/wrapnuts/wrapnuts/blob/main/wrapnuts.png)
+![](https://github.com/wrapnuts/wrapnuts/blob/main/wrapnut.png)
 
 This CLI was developed as a proof of concept for embedding cashu. Launch a test flight according to the steps below.
 
