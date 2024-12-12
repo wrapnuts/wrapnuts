@@ -1,4 +1,4 @@
-![](https://github.com/wrapnuts/wrapnuts/blob/main/wrapnut.png)
+![](https://github.com/wrapnuts/wrapnuts/blob/main/cli.png)
 
 # Wrapnuts-cli
 
